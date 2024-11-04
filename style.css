@@ -1,0 +1,59 @@
+.jumbotron {
+    background-image: url("https://cdn.wallpapersafari.com/2/82/WXFCpH.gif")
+}
+
+.color1 {
+    background-color: #ee9900;
+}
+
+img {
+    height:250px;
+    width: 200px;
+}
+
+.albums {
+    height:200px;
+    width: 200px;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: left;
+    width: 12.5%;
+    padding: 1px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+  figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: #000000;
+    color: #FFFFFF;
+    font: italic large sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  * {box-sizing:border-box}
+
+
+.container-fluid{
+  background: color #000000;
+}
+
+#bodyback{
+  background-color:#282828;
+  color:white;
+}
+
